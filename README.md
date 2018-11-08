@@ -1,1 +1,2 @@
-# IoT Machine Learning
+# AWS IoT Machine Learning
+![Pipeline](Figures/AWS_pipeline.png)
