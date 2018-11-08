@@ -16,6 +16,6 @@ This repository contains my analysis of the University of California Irvine's [h
 
 ![Data](Figures/ridge_volts_pred.png)
 
-* In [sagemaker.ipynb](https://github.com/collinprather/AWS-IoT-ML/blob/master/sagemaker.ipynb), I connect my sagemaker notebook instance to the S3 bucket containing the power consumption data, pull the the data from the bucket, process the data, split it into training and test sets, then channel that data into the model to be trained in the cloud. From there, I designate a location in the S3 bucket for 
+* In [sagemaker.ipynb](https://github.com/collinprather/AWS-IoT-ML/blob/master/sagemaker.ipynb), I connect my sagemaker notebook instance to the S3 bucket containing the power consumption data, pull the the data from the bucket, process the data, split it into training and test sets, then channel that data into the model to be trained in the cloud. From there, I designate a location in the S3 bucket for the model predictions, and deploy the trained model. The diagram below represents a potential data pipeline that this sagemaker instance could belong to. All done on AWS free-tier.
 
 ![Pipeline](Figures/AWS_pipeline.png)
